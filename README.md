@@ -4,14 +4,21 @@
 
 This project provides an API for predicting monthly rainfall in Costa Rica, specifically designed to assist coffee growers in harvest planning. Using historical precipitation data and machine learning (LSTM), the system predicts rainfall patterns that can impact coffee harvesting operations.
 
-## Background
+## Problem Statement  
 
-Coffee harvesting in Costa Rica Central Valley typically occurs between October and February. Accurate rainfall predictions during this period are crucial for:
+Coffee harvesting in Costa Rica’s Central Valley occurs between October and February, but increasing climate variability makes traditional planning unreliable. Unpredictable rainfall complicates scheduling, resource allocation, and crop quality management.  
 
-* Optimal harvest planning
-* Resource allocation
-* Risk management
-* Climate change adaptation
+### **Challenges**  
+- **Unpredictable Rainfall** → Leads to harvest delays, crop damage, and resource inefficiencies.  
+- **Limited Prediction Tools** → Existing solutions lack location-specific accuracy and historical weather integration.  
+- **Operational Inefficiencies** → Poor harvest timing, suboptimal labor use, and increased climate-related risks.  
+
+### **Impact**  
+Without precise rainfall forecasting, growers face lower crop quality, higher costs, and reduced resilience to climate change.  
+
+### **Solution**  
+This project develops an ML-based API that predicts monthly rainfall for Costa Rica’s coffee regions, equipping farmers with data-driven insights to optimize harvest planning and resource management.  
+**
 
 ## Data Source
 
