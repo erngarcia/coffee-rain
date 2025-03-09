@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c4e73605331f63e07d092469ed2fe5b6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c4e73605331f63e07d092469ed2fe5b6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c4e73605331f63e07d092469ed2fe5b6 = L.map(
+                "map_c4e73605331f63e07d092469ed2fe5b6",
+                {
+                    center: [9.7489, -83.7534],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_080fdb49acab30cccd47dc749974644a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_080fdb49acab30cccd47dc749974644a.addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+            var circle_marker_386a9202d48f719cda62ba1dad7ba400 = L.circleMarker(
+                [9.3, -83.78334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_59715239126b30d0fa2f8a927665f3eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41cb39303115d88361667c62bfb5843a = $(`<div id="html_41cb39303115d88361667c62bfb5843a" style="width: 100.0%; height: 100.0%;">Station: 96001.0 Mean Precipitation: 14.37 mm</div>`)[0];
+                popup_59715239126b30d0fa2f8a927665f3eb.setContent(html_41cb39303115d88361667c62bfb5843a);
+            
+        
+
+        circle_marker_386a9202d48f719cda62ba1dad7ba400.bindPopup(popup_59715239126b30d0fa2f8a927665f3eb)
+        ;
+
+        
+    
+    
+            var circle_marker_01e50bb724aeeb55d33c183fff386af5 = L.circleMarker(
+                [9.4, -84.08334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_e2285acaf5ed3453813d9b8030eb115f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e23d575c58669e7486cb2129b760816 = $(`<div id="html_3e23d575c58669e7486cb2129b760816" style="width: 100.0%; height: 100.0%;">Station: 92002.0 Mean Precipitation: 20.41 mm</div>`)[0];
+                popup_e2285acaf5ed3453813d9b8030eb115f.setContent(html_3e23d575c58669e7486cb2129b760816);
+            
+        
+
+        circle_marker_01e50bb724aeeb55d33c183fff386af5.bindPopup(popup_e2285acaf5ed3453813d9b8030eb115f)
+        ;
+
+        
+    
+    
+            var circle_marker_f635697b73cbaddde6c5f36a135d1883 = L.circleMarker(
+                [9.43333, -84.15],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_7fcf29b7e962f52d5d37b2558a1caca7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_585116abfb9528970d8b7d4306642d37 = $(`<div id="html_585116abfb9528970d8b7d4306642d37" style="width: 100.0%; height: 100.0%;">Station: 90003.0 Mean Precipitation: 23.68 mm</div>`)[0];
+                popup_7fcf29b7e962f52d5d37b2558a1caca7.setContent(html_585116abfb9528970d8b7d4306642d37);
+            
+        
+
+        circle_marker_f635697b73cbaddde6c5f36a135d1883.bindPopup(popup_7fcf29b7e962f52d5d37b2558a1caca7)
+        ;
+
+        
+    
+    
+            var circle_marker_659dd3a251a6166122d15611bdfc83ce = L.circleMarker(
+                [9.5, -84.21667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_311e9907cebfe9633eba606ea621c94b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fa528d4bed3a6a2e3f6ee7ccc1c4b4d = $(`<div id="html_8fa528d4bed3a6a2e3f6ee7ccc1c4b4d" style="width: 100.0%; height: 100.0%;">Station: 90007.0 Mean Precipitation: 15.84 mm</div>`)[0];
+                popup_311e9907cebfe9633eba606ea621c94b.setContent(html_8fa528d4bed3a6a2e3f6ee7ccc1c4b4d);
+            
+        
+
+        circle_marker_659dd3a251a6166122d15611bdfc83ce.bindPopup(popup_311e9907cebfe9633eba606ea621c94b)
+        ;
+
+        
+    
+    
+            var circle_marker_f98d4d65120452a6c85b7e53f8cba352 = L.circleMarker(
+                [9.5, -84.15],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_81833a63b92e7206b15eb358d4e1e56d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8204c7ebb684b3c644fb0aa23ab46f0d = $(`<div id="html_8204c7ebb684b3c644fb0aa23ab46f0d" style="width: 100.0%; height: 100.0%;">Station: 90005.0 Mean Precipitation: 18.03 mm</div>`)[0];
+                popup_81833a63b92e7206b15eb358d4e1e56d.setContent(html_8204c7ebb684b3c644fb0aa23ab46f0d);
+            
+        
+
+        circle_marker_f98d4d65120452a6c85b7e53f8cba352.bindPopup(popup_81833a63b92e7206b15eb358d4e1e56d)
+        ;
+
+        
+    
+    
+            var circle_marker_e6c4e17d31e11af724452c761c1d0b66 = L.circleMarker(
+                [9.51667, -84.25],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_b518cab7764ada3bdd542a241c1b625d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_076ee42d80b091a40440c932bef430c0 = $(`<div id="html_076ee42d80b091a40440c932bef430c0" style="width: 100.0%; height: 100.0%;">Station: 90001.0 Mean Precipitation: 18.40 mm</div>`)[0];
+                popup_b518cab7764ada3bdd542a241c1b625d.setContent(html_076ee42d80b091a40440c932bef430c0);
+            
+        
+
+        circle_marker_e6c4e17d31e11af724452c761c1d0b66.bindPopup(popup_b518cab7764ada3bdd542a241c1b625d)
+        ;
+
+        
+    
+    
+            var circle_marker_250bc0c5496338f5ff7a08cb561fc6bf = L.circleMarker(
+                [9.53333, -84.3],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_8d2becc8515555dada3548753b34427d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7719285776bf5463df1548288917207c = $(`<div id="html_7719285776bf5463df1548288917207c" style="width: 100.0%; height: 100.0%;">Station: 88004.0 Mean Precipitation: 18.08 mm</div>`)[0];
+                popup_8d2becc8515555dada3548753b34427d.setContent(html_7719285776bf5463df1548288917207c);
+            
+        
+
+        circle_marker_250bc0c5496338f5ff7a08cb561fc6bf.bindPopup(popup_8d2becc8515555dada3548753b34427d)
+        ;
+
+        
+    
+    
+            var circle_marker_2eb09809114081119236752674b01323 = L.circleMarker(
+                [9.7, -84.66666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_c53873333e4060a6571acff3a53aecd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24ded494c951cb477867ca4d5e2f6821 = $(`<div id="html_24ded494c951cb477867ca4d5e2f6821" style="width: 100.0%; height: 100.0%;">Station: 86007.0 Mean Precipitation: 14.86 mm</div>`)[0];
+                popup_c53873333e4060a6571acff3a53aecd7.setContent(html_24ded494c951cb477867ca4d5e2f6821);
+            
+        
+
+        circle_marker_2eb09809114081119236752674b01323.bindPopup(popup_c53873333e4060a6571acff3a53aecd7)
+        ;
+
+        
+    
+    
+            var circle_marker_bbb1e455f4c0dfcc3b2c9ec3b8757bbb = L.circleMarker(
+                [9.85, -84.6],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_1dc84a29f37d44d228268ba4c6cfe989 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fee8b9cca4f9d597c1bb83f8903508e = $(`<div id="html_2fee8b9cca4f9d597c1bb83f8903508e" style="width: 100.0%; height: 100.0%;">Station: 82007.0 Mean Precipitation: 15.25 mm</div>`)[0];
+                popup_1dc84a29f37d44d228268ba4c6cfe989.setContent(html_2fee8b9cca4f9d597c1bb83f8903508e);
+            
+        
+
+        circle_marker_bbb1e455f4c0dfcc3b2c9ec3b8757bbb.bindPopup(popup_1dc84a29f37d44d228268ba4c6cfe989)
+        ;
+
+        
+    
+    
+            var circle_marker_fd3275531961f37db92e08b6f4a6e7cf = L.circleMarker(
+                [9.93333, -83.91666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_18fe01a7eee2222437530addb7358d1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93ae7578b18a27206d6068a5c43d9588 = $(`<div id="html_93ae7578b18a27206d6068a5c43d9588" style="width: 100.0%; height: 100.0%;">Station: 84125.0 Mean Precipitation: 10.14 mm</div>`)[0];
+                popup_18fe01a7eee2222437530addb7358d1e.setContent(html_93ae7578b18a27206d6068a5c43d9588);
+            
+        
+
+        circle_marker_fd3275531961f37db92e08b6f4a6e7cf.bindPopup(popup_18fe01a7eee2222437530addb7358d1e)
+        ;
+
+        
+    
+    
+            var circle_marker_ea61d9df3e3bbf462b8d9ca0668d612b = L.circleMarker(
+                [10.31667, -84.8],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_e08e4148ae069a25a3ded8ff8e263c05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2344834770d49af1f661118ba9adfb2 = $(`<div id="html_c2344834770d49af1f661118ba9adfb2" style="width: 100.0%; height: 100.0%;">Station: 78002.0 Mean Precipitation: 7.73 mm</div>`)[0];
+                popup_e08e4148ae069a25a3ded8ff8e263c05.setContent(html_c2344834770d49af1f661118ba9adfb2);
+            
+        
+
+        circle_marker_ea61d9df3e3bbf462b8d9ca0668d612b.bindPopup(popup_e08e4148ae069a25a3ded8ff8e263c05)
+        ;
+
+        
+    
+    
+            var circle_marker_d36ff23a5db604b1b83489f6f822ad4b = L.circleMarker(
+                [9.13333, -83.33334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_391222c3b716827f21c36f29573dc520 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f49dcdc99160bd0fef6f4c339c9d3f99 = $(`<div id="html_f49dcdc99160bd0fef6f4c339c9d3f99" style="width: 100.0%; height: 100.0%;">Station: 98027.0 Mean Precipitation: 14.20 mm</div>`)[0];
+                popup_391222c3b716827f21c36f29573dc520.setContent(html_f49dcdc99160bd0fef6f4c339c9d3f99);
+            
+        
+
+        circle_marker_d36ff23a5db604b1b83489f6f822ad4b.bindPopup(popup_391222c3b716827f21c36f29573dc520)
+        ;
+
+        
+    
+    
+            var circle_marker_c9b5b09f0295409c234235eb4bc118c8 = L.circleMarker(
+                [9.26667, -83.86667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_ff0b92607d8bb6384ed9d5f699baae19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba0d5d24b811f4456fbb4603009f2cd3 = $(`<div id="html_ba0d5d24b811f4456fbb4603009f2cd3" style="width: 100.0%; height: 100.0%;">Station: 96002.0 Mean Precipitation: 18.65 mm</div>`)[0];
+                popup_ff0b92607d8bb6384ed9d5f699baae19.setContent(html_ba0d5d24b811f4456fbb4603009f2cd3);
+            
+        
+
+        circle_marker_c9b5b09f0295409c234235eb4bc118c8.bindPopup(popup_ff0b92607d8bb6384ed9d5f699baae19)
+        ;
+
+        
+    
+    
+            var circle_marker_362daa9a60ad6dea44a43618fd7ec966 = L.circleMarker(
+                [9.53333, -84.38333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_43a66f22dd83dac33cab00f38e7f146b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f11bb7badd86c6f9c7d83191d2d26316 = $(`<div id="html_f11bb7badd86c6f9c7d83191d2d26316" style="width: 100.0%; height: 100.0%;">Station: 88013.0 Mean Precipitation: 33.15 mm</div>`)[0];
+                popup_43a66f22dd83dac33cab00f38e7f146b.setContent(html_f11bb7badd86c6f9c7d83191d2d26316);
+            
+        
+
+        circle_marker_362daa9a60ad6dea44a43618fd7ec966.bindPopup(popup_43a66f22dd83dac33cab00f38e7f146b)
+        ;
+
+        
+    
+    
+            var circle_marker_33d8714551f5c40b640975cf4f95df80 = L.circleMarker(
+                [9.53333, -84.36667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_047a58302dd6f18a744c22720ddfce0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8c75d89a45223bb5a352b3840b5ad2e = $(`<div id="html_f8c75d89a45223bb5a352b3840b5ad2e" style="width: 100.0%; height: 100.0%;">Station: 88003.0 Mean Precipitation: 36.29 mm</div>`)[0];
+                popup_047a58302dd6f18a744c22720ddfce0e.setContent(html_f8c75d89a45223bb5a352b3840b5ad2e);
+            
+        
+
+        circle_marker_33d8714551f5c40b640975cf4f95df80.bindPopup(popup_047a58302dd6f18a744c22720ddfce0e)
+        ;
+
+        
+    
+    
+            var circle_marker_bb5a229aa4e29ddcdfddf52646442a84 = L.circleMarker(
+                [9.55, -84.33334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_8aa5c4e597b6f13ff7a884522213f1ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3a87bf62837a2e178f53f35624e8e8f = $(`<div id="html_e3a87bf62837a2e178f53f35624e8e8f" style="width: 100.0%; height: 100.0%;">Station: 88002.0 Mean Precipitation: 31.10 mm</div>`)[0];
+                popup_8aa5c4e597b6f13ff7a884522213f1ec.setContent(html_e3a87bf62837a2e178f53f35624e8e8f);
+            
+        
+
+        circle_marker_bb5a229aa4e29ddcdfddf52646442a84.bindPopup(popup_8aa5c4e597b6f13ff7a884522213f1ec)
+        ;
+
+        
+    
+    
+            var circle_marker_d1b04826f2ba40ea0900bc4f8c54a8be = L.circleMarker(
+                [8.68333, -83.06668],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_770cbe51b831740bb9fb17d5a1d5f83d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4173adc2823f4ae2cd863308cb46f898 = $(`<div id="html_4173adc2823f4ae2cd863308cb46f898" style="width: 100.0%; height: 100.0%;">Station: 10024.0 Mean Precipitation: 20.10 mm</div>`)[0];
+                popup_770cbe51b831740bb9fb17d5a1d5f83d.setContent(html_4173adc2823f4ae2cd863308cb46f898);
+            
+        
+
+        circle_marker_d1b04826f2ba40ea0900bc4f8c54a8be.bindPopup(popup_770cbe51b831740bb9fb17d5a1d5f83d)
+        ;
+
+        
+    
+    
+            var circle_marker_f877454090b75e687891cb08ad7ac6bd = L.circleMarker(
+                [9.2, -83.43332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_e61d6edbcc5435b06f2b259b1d786f0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd11e5c6169256f454cafed96f0ec397 = $(`<div id="html_bd11e5c6169256f454cafed96f0ec397" style="width: 100.0%; height: 100.0%;">Station: 98026.0 Mean Precipitation: 19.13 mm</div>`)[0];
+                popup_e61d6edbcc5435b06f2b259b1d786f0e.setContent(html_bd11e5c6169256f454cafed96f0ec397);
+            
+        
+
+        circle_marker_f877454090b75e687891cb08ad7ac6bd.bindPopup(popup_e61d6edbcc5435b06f2b259b1d786f0e)
+        ;
+
+        
+    
+    
+            var circle_marker_62785082597b710e6cb383b27223f495 = L.circleMarker(
+                [9.21667, -83.45],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_16a99a49f7997d9e361bb988c53cdc63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab320f6b289843fbb63ad66c303c9904 = $(`<div id="html_ab320f6b289843fbb63ad66c303c9904" style="width: 100.0%; height: 100.0%;">Station: 98006.0 Mean Precipitation: 14.84 mm</div>`)[0];
+                popup_16a99a49f7997d9e361bb988c53cdc63.setContent(html_ab320f6b289843fbb63ad66c303c9904);
+            
+        
+
+        circle_marker_62785082597b710e6cb383b27223f495.bindPopup(popup_16a99a49f7997d9e361bb988c53cdc63)
+        ;
+
+        
+    
+    
+            var circle_marker_d1fb3f64d65a6c09f1dbbc37b6fe4796 = L.circleMarker(
+                [9.51667, -84.36667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_ad433516f1b339bf36e7b6771f21c59b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af4a6f8c85a25600e231244398d7b6ea = $(`<div id="html_af4a6f8c85a25600e231244398d7b6ea" style="width: 100.0%; height: 100.0%;">Station: 88031.0 Mean Precipitation: 18.35 mm</div>`)[0];
+                popup_ad433516f1b339bf36e7b6771f21c59b.setContent(html_af4a6f8c85a25600e231244398d7b6ea);
+            
+        
+
+        circle_marker_d1fb3f64d65a6c09f1dbbc37b6fe4796.bindPopup(popup_ad433516f1b339bf36e7b6771f21c59b)
+        ;
+
+        
+    
+    
+            var circle_marker_f7e92ac020cc49d2368b6a6351be624b = L.circleMarker(
+                [9.91667, -84.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_2700a546eff0ac92afc8e7a486882df5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6090d85ea6424ffb4f1adf7af864c8f8 = $(`<div id="html_6090d85ea6424ffb4f1adf7af864c8f8" style="width: 100.0%; height: 100.0%;">Station: 84006.0 Mean Precipitation: 14.03 mm</div>`)[0];
+                popup_2700a546eff0ac92afc8e7a486882df5.setContent(html_6090d85ea6424ffb4f1adf7af864c8f8);
+            
+        
+
+        circle_marker_f7e92ac020cc49d2368b6a6351be624b.bindPopup(popup_2700a546eff0ac92afc8e7a486882df5)
+        ;
+
+        
+    
+    
+            var circle_marker_ad84cf75e256713455cb47bcb4290719 = L.circleMarker(
+                [9.95, -84.08334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_04355026c7aacd7e071c1ff86bcfe8b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1e16b0967fb9a21e7c68eb146ad3dfa = $(`<div id="html_b1e16b0967fb9a21e7c68eb146ad3dfa" style="width: 100.0%; height: 100.0%;">Station: 84127.0 Mean Precipitation: 10.67 mm</div>`)[0];
+                popup_04355026c7aacd7e071c1ff86bcfe8b5.setContent(html_b1e16b0967fb9a21e7c68eb146ad3dfa);
+            
+        
+
+        circle_marker_ad84cf75e256713455cb47bcb4290719.bindPopup(popup_04355026c7aacd7e071c1ff86bcfe8b5)
+        ;
+
+        
+    
+    
+            var circle_marker_e38d500f146737072b515004dfdd8eb0 = L.circleMarker(
+                [9.98333, -84.76667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_73c959ff4d2114db0201e31edcae7578 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7d48edee3cb773a48945e837f85419f = $(`<div id="html_d7d48edee3cb773a48945e837f85419f" style="width: 100.0%; height: 100.0%;">Station: 78003.0 Mean Precipitation: 11.63 mm</div>`)[0];
+                popup_73c959ff4d2114db0201e31edcae7578.setContent(html_d7d48edee3cb773a48945e837f85419f);
+            
+        
+
+        circle_marker_e38d500f146737072b515004dfdd8eb0.bindPopup(popup_73c959ff4d2114db0201e31edcae7578)
+        ;
+
+        
+    
+    
+            var circle_marker_b15147f0b7945a7fb4994927e9233dd4 = L.circleMarker(
+                [9.98333, -84.38333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_e38c70a33c16551bf252bfd75bf47906 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9bdc5e86a1f61d4080a1fb9c6d08e66 = $(`<div id="html_a9bdc5e86a1f61d4080a1fb9c6d08e66" style="width: 100.0%; height: 100.0%;">Station: 84004.0 Mean Precipitation: 14.90 mm</div>`)[0];
+                popup_e38c70a33c16551bf252bfd75bf47906.setContent(html_a9bdc5e86a1f61d4080a1fb9c6d08e66);
+            
+        
+
+        circle_marker_b15147f0b7945a7fb4994927e9233dd4.bindPopup(popup_e38c70a33c16551bf252bfd75bf47906)
+        ;
+
+        
+    
+    
+            var circle_marker_cdddba4211f519f7cf6b25329f5495be = L.circleMarker(
+                [10.0, -84.2],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_80f03416cf34cab6a6f352807d0476cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bfa15892e7784c95e588ea330aa5f6d = $(`<div id="html_9bfa15892e7784c95e588ea330aa5f6d" style="width: 100.0%; height: 100.0%;">Station: 84021.0 Mean Precipitation: 10.87 mm</div>`)[0];
+                popup_80f03416cf34cab6a6f352807d0476cf.setContent(html_9bfa15892e7784c95e588ea330aa5f6d);
+            
+        
+
+        circle_marker_cdddba4211f519f7cf6b25329f5495be.bindPopup(popup_80f03416cf34cab6a6f352807d0476cf)
+        ;
+
+        
+    
+    
+            var circle_marker_27a0e48d53a3ac2b52af1a2f05d97c4a = L.circleMarker(
+                [10.01667, -84.56667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_f51790e67e7085b20d81a430933b1ff4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28a25decef419faefe22a3c1eb73ca1c = $(`<div id="html_28a25decef419faefe22a3c1eb73ca1c" style="width: 100.0%; height: 100.0%;">Station: 82001.0 Mean Precipitation: 26.33 mm</div>`)[0];
+                popup_f51790e67e7085b20d81a430933b1ff4.setContent(html_28a25decef419faefe22a3c1eb73ca1c);
+            
+        
+
+        circle_marker_27a0e48d53a3ac2b52af1a2f05d97c4a.bindPopup(popup_f51790e67e7085b20d81a430933b1ff4)
+        ;
+
+        
+    
+    
+            var circle_marker_e4245f3a55a50ef0c86fe7798250ab40 = L.circleMarker(
+                [10.01667, -84.11667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_0ce3c4067eb264be649be5d5375b72df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91cd83e61b1af5458ed4b718e20794b1 = $(`<div id="html_91cd83e61b1af5458ed4b718e20794b1" style="width: 100.0%; height: 100.0%;">Station: 84111.0 Mean Precipitation: 12.02 mm</div>`)[0];
+                popup_0ce3c4067eb264be649be5d5375b72df.setContent(html_91cd83e61b1af5458ed4b718e20794b1);
+            
+        
+
+        circle_marker_e4245f3a55a50ef0c86fe7798250ab40.bindPopup(popup_0ce3c4067eb264be649be5d5375b72df)
+        ;
+
+        
+    
+    
+            var circle_marker_93a5ec606427068bb3fcc153c2f807e5 = L.circleMarker(
+                [10.03333, -84.35],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_2c446c34446b863c532a569ac1266435 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8354b7fb9564f9e433c5ea04f996360 = $(`<div id="html_a8354b7fb9564f9e433c5ea04f996360" style="width: 100.0%; height: 100.0%;">Station: 84003.0 Mean Precipitation: 11.23 mm</div>`)[0];
+                popup_2c446c34446b863c532a569ac1266435.setContent(html_a8354b7fb9564f9e433c5ea04f996360);
+            
+        
+
+        circle_marker_93a5ec606427068bb3fcc153c2f807e5.bindPopup(popup_2c446c34446b863c532a569ac1266435)
+        ;
+
+        
+    
+    
+            var circle_marker_c156b9c6d211acf16c22874aa6ebd6c0 = L.circleMarker(
+                [10.08333, -84.73333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_f61e96bb14d406e0b8b5dd9b136b8f4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfb12409ffc42f812fcf0fdaff7bba4c = $(`<div id="html_cfb12409ffc42f812fcf0fdaff7bba4c" style="width: 100.0%; height: 100.0%;">Station: 78006.0 Mean Precipitation: 21.93 mm</div>`)[0];
+                popup_f61e96bb14d406e0b8b5dd9b136b8f4a.setContent(html_cfb12409ffc42f812fcf0fdaff7bba4c);
+            
+        
+
+        circle_marker_c156b9c6d211acf16c22874aa6ebd6c0.bindPopup(popup_f61e96bb14d406e0b8b5dd9b136b8f4a)
+        ;
+
+        
+    
+    
+            var circle_marker_35409cad89093acd4d9be3a3303d0824 = L.circleMarker(
+                [10.11667, -84.53333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_3d113045b4f1f6497c7fe710aaf81a3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b5ffef8f5af2c964221c3a764e63c58 = $(`<div id="html_5b5ffef8f5af2c964221c3a764e63c58" style="width: 100.0%; height: 100.0%;">Station: 80009.0 Mean Precipitation: 11.17 mm</div>`)[0];
+                popup_3d113045b4f1f6497c7fe710aaf81a3e.setContent(html_5b5ffef8f5af2c964221c3a764e63c58);
+            
+        
+
+        circle_marker_35409cad89093acd4d9be3a3303d0824.bindPopup(popup_3d113045b4f1f6497c7fe710aaf81a3e)
+        ;
+
+        
+    
+    
+            var circle_marker_3947cf78a1631acc88815844e78ecdaa = L.circleMarker(
+                [10.15, -84.88333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_97b568c863f0da16cd02411d0fc96f46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a17d8a0368d7911aff15c63684830ba = $(`<div id="html_0a17d8a0368d7911aff15c63684830ba" style="width: 100.0%; height: 100.0%;">Station: 78005.0 Mean Precipitation: 20.64 mm</div>`)[0];
+                popup_97b568c863f0da16cd02411d0fc96f46.setContent(html_0a17d8a0368d7911aff15c63684830ba);
+            
+        
+
+        circle_marker_3947cf78a1631acc88815844e78ecdaa.bindPopup(popup_97b568c863f0da16cd02411d0fc96f46)
+        ;
+
+        
+    
+    
+            var circle_marker_1c6c5e37076aa022a6072f0cc0681877 = L.circleMarker(
+                [10.26667, -85.58334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_9d56ab27801b2967161a5be6436ac9d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_247b9ca73701b3540b8e7a0f31545ff1 = $(`<div id="html_247b9ca73701b3540b8e7a0f31545ff1" style="width: 100.0%; height: 100.0%;">Station: 74003.0 Mean Precipitation: 12.86 mm</div>`)[0];
+                popup_9d56ab27801b2967161a5be6436ac9d5.setContent(html_247b9ca73701b3540b8e7a0f31545ff1);
+            
+        
+
+        circle_marker_1c6c5e37076aa022a6072f0cc0681877.bindPopup(popup_9d56ab27801b2967161a5be6436ac9d5)
+        ;
+
+        
+    
+    
+            var circle_marker_83e102a21f38bbd766226050195f2eab = L.circleMarker(
+                [10.46667, -84.96667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_4236e8b69fe4e3840c9f26bce783646d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0fd3fab03a3ed95124ceaaad661f9eb = $(`<div id="html_a0fd3fab03a3ed95124ceaaad661f9eb" style="width: 100.0%; height: 100.0%;">Station: 76002.0 Mean Precipitation: 7.88 mm</div>`)[0];
+                popup_4236e8b69fe4e3840c9f26bce783646d.setContent(html_a0fd3fab03a3ed95124ceaaad661f9eb);
+            
+        
+
+        circle_marker_83e102a21f38bbd766226050195f2eab.bindPopup(popup_4236e8b69fe4e3840c9f26bce783646d)
+        ;
+
+        
+    
+    
+            var circle_marker_b3e72856d53fff847841d5e17ca91f04 = L.circleMarker(
+                [10.6, -85.53333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_860cab3665465b89d0bd4428e3f68162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a19b18abc4463c9f67ad266134defe5 = $(`<div id="html_1a19b18abc4463c9f67ad266134defe5" style="width: 100.0%; height: 100.0%;">Station: 74020.0 Mean Precipitation: 12.08 mm</div>`)[0];
+                popup_860cab3665465b89d0bd4428e3f68162.setContent(html_1a19b18abc4463c9f67ad266134defe5);
+            
+        
+
+        circle_marker_b3e72856d53fff847841d5e17ca91f04.bindPopup(popup_860cab3665465b89d0bd4428e3f68162)
+        ;
+
+        
+    
+    
+            var circle_marker_80c2d9ec0118fb7d9ba0bb35ef362d09 = L.circleMarker(
+                [10.7, -85.08334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_5c64c4f8074af7f7ecb67418648d5255 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_372264675090baf007f9d7a32b607afc = $(`<div id="html_372264675090baf007f9d7a32b607afc" style="width: 100.0%; height: 100.0%;">Station: 76045.0 Mean Precipitation: 10.61 mm</div>`)[0];
+                popup_5c64c4f8074af7f7ecb67418648d5255.setContent(html_372264675090baf007f9d7a32b607afc);
+            
+        
+
+        circle_marker_80c2d9ec0118fb7d9ba0bb35ef362d09.bindPopup(popup_5c64c4f8074af7f7ecb67418648d5255)
+        ;
+
+        
+    
+    
+            var circle_marker_7a545a4432b7a9f76d15660e4122a0cc = L.circleMarker(
+                [9.5, -84.21667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_346c02362b3fdc726ecdebdd33e655ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73c651d28f69da3d913fbfa4007bccf9 = $(`<div id="html_73c651d28f69da3d913fbfa4007bccf9" style="width: 100.0%; height: 100.0%;">Station: 90009.0 Mean Precipitation: 15.81 mm</div>`)[0];
+                popup_346c02362b3fdc726ecdebdd33e655ea.setContent(html_73c651d28f69da3d913fbfa4007bccf9);
+            
+        
+
+        circle_marker_7a545a4432b7a9f76d15660e4122a0cc.bindPopup(popup_346c02362b3fdc726ecdebdd33e655ea)
+        ;
+
+        
+    
+    
+            var circle_marker_546d1c523861345d96e9bf506e5c6fa5 = L.circleMarker(
+                [9.9, -84.13333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_b578d4640d17961cffa89ec50670b86f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18a978563026e120d9bdce8b0d28ce8a = $(`<div id="html_18a978563026e120d9bdce8b0d28ce8a" style="width: 100.0%; height: 100.0%;">Station: 84066.0 Mean Precipitation: 16.95 mm</div>`)[0];
+                popup_b578d4640d17961cffa89ec50670b86f.setContent(html_18a978563026e120d9bdce8b0d28ce8a);
+            
+        
+
+        circle_marker_546d1c523861345d96e9bf506e5c6fa5.bindPopup(popup_b578d4640d17961cffa89ec50670b86f)
+        ;
+
+        
+    
+    
+            var circle_marker_2b7c006b4d80d6909e2f62ed5a96ea04 = L.circleMarker(
+                [9.93333, -83.96667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_7ed141c23edf6f799a4f297cea480abe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1e56b37f705a354f716b267c7b9f5ee = $(`<div id="html_f1e56b37f705a354f716b267c7b9f5ee" style="width: 100.0%; height: 100.0%;">Station: 84005.0 Mean Precipitation: 14.88 mm</div>`)[0];
+                popup_7ed141c23edf6f799a4f297cea480abe.setContent(html_f1e56b37f705a354f716b267c7b9f5ee);
+            
+        
+
+        circle_marker_2b7c006b4d80d6909e2f62ed5a96ea04.bindPopup(popup_7ed141c23edf6f799a4f297cea480abe)
+        ;
+
+        
+    
+    
+            var circle_marker_608e72c5ca8bf7d716de192bbd8628c8 = L.circleMarker(
+                [10.11667, -84.38333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_a8767c9f33b8fc0d86a611fd6bf278da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ca49626285bbb122dbdbb9c576c5702 = $(`<div id="html_8ca49626285bbb122dbdbb9c576c5702" style="width: 100.0%; height: 100.0%;">Station: 84075.0 Mean Precipitation: 11.74 mm</div>`)[0];
+                popup_a8767c9f33b8fc0d86a611fd6bf278da.setContent(html_8ca49626285bbb122dbdbb9c576c5702);
+            
+        
+
+        circle_marker_608e72c5ca8bf7d716de192bbd8628c8.bindPopup(popup_a8767c9f33b8fc0d86a611fd6bf278da)
+        ;
+
+        
+    
+    
+            var circle_marker_a55f65fc781e7770513b6651f19a3c73 = L.circleMarker(
+                [10.36667, -85.2],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_fc70fa4dd58929a5be37773f0859a82e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5dadbab7eada3c67421c211917f1d6bb = $(`<div id="html_5dadbab7eada3c67421c211917f1d6bb" style="width: 100.0%; height: 100.0%;">Station: 76041.0 Mean Precipitation: 10.33 mm</div>`)[0];
+                popup_fc70fa4dd58929a5be37773f0859a82e.setContent(html_5dadbab7eada3c67421c211917f1d6bb);
+            
+        
+
+        circle_marker_a55f65fc781e7770513b6651f19a3c73.bindPopup(popup_fc70fa4dd58929a5be37773f0859a82e)
+        ;
+
+        
+    
+    
+            var circle_marker_5d3f34c2232d75ff0bd24770a840061f = L.circleMarker(
+                [10.65, -85.53333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_243abcfa7643a52930955b4a6d3d44ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0150f1150115e47056b3ad87b02be0e5 = $(`<div id="html_0150f1150115e47056b3ad87b02be0e5" style="width: 100.0%; height: 100.0%;">Station: 74021.0 Mean Precipitation: 17.04 mm</div>`)[0];
+                popup_243abcfa7643a52930955b4a6d3d44ad.setContent(html_0150f1150115e47056b3ad87b02be0e5);
+            
+        
+
+        circle_marker_5d3f34c2232d75ff0bd24770a840061f.bindPopup(popup_243abcfa7643a52930955b4a6d3d44ad)
+        ;
+
+        
+    
+    
+            var circle_marker_c00c37f1babfa234a9a0823bebf650ed = L.circleMarker(
+                [9.43333, -84.1],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_3135893b9d340e870594383d0fe7519b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_403556d18f67d5d90a3594e88487a3c8 = $(`<div id="html_403556d18f67d5d90a3594e88487a3c8" style="width: 100.0%; height: 100.0%;">Station: 92001.0 Mean Precipitation: 20.88 mm</div>`)[0];
+                popup_3135893b9d340e870594383d0fe7519b.setContent(html_403556d18f67d5d90a3594e88487a3c8);
+            
+        
+
+        circle_marker_c00c37f1babfa234a9a0823bebf650ed.bindPopup(popup_3135893b9d340e870594383d0fe7519b)
+        ;
+
+        
+    
+    
+            var circle_marker_15317ecebec2cf729e1a5adbed5e0485 = L.circleMarker(
+                [10.0, -84.7],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_d2ac4ddf3f5c78c92d9de4baf1a90635 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1d6b6375be643c267d27e55f136c32a = $(`<div id="html_b1d6b6375be643c267d27e55f136c32a" style="width: 100.0%; height: 100.0%;">Station: 80002.0 Mean Precipitation: 16.27 mm</div>`)[0];
+                popup_d2ac4ddf3f5c78c92d9de4baf1a90635.setContent(html_b1d6b6375be643c267d27e55f136c32a);
+            
+        
+
+        circle_marker_15317ecebec2cf729e1a5adbed5e0485.bindPopup(popup_d2ac4ddf3f5c78c92d9de4baf1a90635)
+        ;
+
+        
+    
+    
+            var circle_marker_3ef4bf5e3f746f4eed9ad2fcb491cf56 = L.circleMarker(
+                [10.48333, -85.41666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c4e73605331f63e07d092469ed2fe5b6);
+        
+    
+        var popup_1c4d1c39dc40ef30b7cf76ffe141ac15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72bb3edba5f235e1c87504b9fff992c2 = $(`<div id="html_72bb3edba5f235e1c87504b9fff992c2" style="width: 100.0%; height: 100.0%;">Station: 74008.0 Mean Precipitation: 21.76 mm</div>`)[0];
+                popup_1c4d1c39dc40ef30b7cf76ffe141ac15.setContent(html_72bb3edba5f235e1c87504b9fff992c2);
+            
+        
+
+        circle_marker_3ef4bf5e3f746f4eed9ad2fcb491cf56.bindPopup(popup_1c4d1c39dc40ef30b7cf76ffe141ac15)
+        ;
+
+        
+    
+</script>
+</html>
