@@ -124,7 +124,7 @@ This project is licensed under the MIT License
 
 * UCAR/NCAR Earth Observing Laboratory for providing the precipitation dataset
 * Costa Rican coffee growing community for domain expertise
-* [Other acknowledgments]
+* Fidel my dog for inspo
 
 ## Citation
 
